@@ -1,0 +1,16 @@
+@startuml
+
+|aktor|
+start
+:kunjungi halaman web;
+
+|sistem|
+:proses request dari pengguna;
+:rancang request;
+
+|aktor|
+:terima response;
+:render response;
+stop
+
+@enduml
