@@ -1,0 +1,11 @@
+@startuml
+
+|aktor|
+start
+:Melacak port;
+
+|sistem|
+:Menemukan dan mengembalikan port;
+stop
+
+@enduml

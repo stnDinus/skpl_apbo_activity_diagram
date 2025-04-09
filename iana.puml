@@ -1,0 +1,14 @@
+@startuml
+
+|aktor|
+start
+:Memberi request ke endpoint csv IANA;
+
+|sistem|
+:Menerima request berbentuk csv;
+:Memroses csv;
+:Memetakan csv ke adt graphql;
+:Menyimpan himpunan adt di memori program;
+stop
+
+@enduml

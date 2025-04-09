@@ -1,0 +1,15 @@
+@startuml
+
+|aktor|
+start
+:Memberi request graphql;
+
+|sistem|
+:Backend menerima request graphql;
+:Backend memeriksa header Aurhorization dengan skema Basic pada ruas password untuk uuid;
+:Backend memeriksa uuid pada database;
+:Backend menemukan uuid pada database;
+:Backend mengotorisasikan/memperbolehkan request untuk berlanjut;
+stop
+
+@enduml
