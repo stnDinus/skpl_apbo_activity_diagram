@@ -1,0 +1,14 @@
+@startuml
+
+|aktor|
+start
+:cari port;
+
+|sistem|
+:port belum ter registrasi;
+
+|aktor|
+:terima respon;
+stop
+
+@enduml
